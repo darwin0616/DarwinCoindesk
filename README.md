@@ -5,7 +5,7 @@
 ![index](https://github.com/darwin0616/DarwinCoindesk/raw/main/euro.png)
 點擊json源碼最右端的儲存按鈕會把當下的歐元與比特幣的匯率存入h2 DB。
 該儲存按鈕的實作方式是透過restful api處理，因此亦可透過postman的方式直接存入。
-![index](https://github.com/darwin0616/DarwinCoindesk/raw/main/postman-insert.png)
+![index](https://github.com/darwin0616/DarwinCoindesk/raw/main/postman.png)
 點擊下方的查詢，會透過restful api自h2 DB中帶出code=EUR的所有資料，使用者可對每筆資料修改/刪除。
 h2 DB的範例資訊如下:
 ![index](https://github.com/darwin0616/DarwinCoindesk/raw/main/h2.png)
